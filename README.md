@@ -1,59 +1,86 @@
-# GifsApp
+#  Gifs App Angular and Tailwind CSS
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.20.
+A web application built with **Angular** that allows users to search and display GIFs in real time using an external API.
 
-## Development server
+This project demonstrates modular architecture, HTTP service consumption, simple state management, and automated deployment using GitHub Actions to GitHub Pages.
 
-To start a local development server, run:
+---
+
+##  Features
+
+-  Real-time GIF search
+-  REST API integration
+-  Modular Angular architecture
+-  HTTP services using `HttpClient`
+-  Recent searches persisted with `LocalStorage`
+-  Automated CI/CD deployment
+-  Hosted on GitHub Pages
+
+---
+
+## 🛠️ Technologies Used
+
+-  Angular
+-  Tailwind CSS
+-  Node.js
+-  npm
+-  Git & GitHub
+-  GitHub Actions (CI/CD)
+-  GitHub Pages
+
+---
+
+##  Installation & Local Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/dalbacarrasco/gifs-app-angular.git
+```
+
+### 2️⃣ Navigate into the project folder
+
+```bash
+cd gifs-app-angular
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run in development mode
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open your browser at:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+##  Production Build
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🔄 Deployment
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+This project uses **GitHub Actions** to:
 
-```bash
-ng test
-```
+- Automatically build the application
+- Generate deployment artifacts
+- Deploy to GitHub Pages
 
-## Running end-to-end tests
+Every `push` to the `main` branch that modifies source code triggers the deployment pipeline.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
