@@ -2,7 +2,7 @@ import { Component, computed, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { map } from 'rxjs';
-import { Gifs } from '../../services/Gifs';
+import { Gifs } from '../../services/gifs';
 import { List } from "../../components/list/list";
 @Component({
   selector: 'app-git-history',

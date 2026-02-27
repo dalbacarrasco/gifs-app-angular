@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { MenuOption } from '../../../interfaces/menu-opton.interface';
 import { RouterLink, RouterLinkActive } from "@angular/router";
-import { Gifs } from 'src/app/gifs/services/Gifs';
+import { Gifs } from 'src/app/gifs/services/gifs';
 
 @Component({
   selector: 'gifs-side-menu-options',
