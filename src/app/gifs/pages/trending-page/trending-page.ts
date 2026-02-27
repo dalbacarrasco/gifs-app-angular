@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, inject, signal, viewChild } from '@angular/core';
-import { Gifs } from '../../services/gifs';
+import { Gifs } from '../../services/Gifs';
 import { ScrollState } from 'src/app/shared/services/scroll-state';
 
 @Component({

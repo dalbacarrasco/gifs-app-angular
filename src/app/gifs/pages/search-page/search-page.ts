@@ -1,6 +1,6 @@
 import { Component, inject, signal } from '@angular/core';
 import { List } from "../../components/list/list";
-import { Gifs } from '../../services/gifs';
+import { Gifs } from '../../services/Gifs';
 import { Gif } from '../../interfaces/gif.interface';
 
 @Component({
